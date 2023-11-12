@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/loja_menu.css">
+  <script src="js/lojas_menu.js"></script>
+</head>
+<body>
+<div id="myBtnContainer">
+  <button class="btn" onclick="filterSelection('all')" checked> Todos</button>
+  <button class="btn" onclick="filterSelection('mercados')"> Mercados</button>
+  <button class="btn" onclick="filterSelection('lojas')"> Lojas</button>
+  <button class="btn" onclick="filterSelection('lanchonetes')"> Lanchonetes</button>
+</div>
+
+<div class="row">
+
+    <div class="column mercados">
+      <div class="content">
+        <a href="loja1.html">
+          <img src="lojas_logo/cajaiba(1).png" alt="Lights" style="width:100%;">
+        </a>
+        <h4>Cajaíba</h4>
+      </div>
+    </div>
+
+    <div class="column mercados">
+      <div class="content">
+        <a href="loja1.html">
+          <img src="assets_img/logoo.png" alt="Lights" style="width:100%">
+        </a>
+        <h4>Verdurão</h4>
+      </div>
+    </div>
+
+    <div class="column mercados">
+      <div class="content">
+        <a href="loja1.html">
+          <img src="assets_img/logoo.png" alt="Lights" style="width:100%">
+        </a>
+        <h4>Atakadão</h4>
+      </div>
+    </div>
+
+    <div class="column lojas">
+      <div class="content">
+        <a href="loja1.html">
+          <img src="assets_img/logoo.png" alt="Lights" style="width:100%">
+        </a>
+        <h4>Casas Bahia</h4>
+      </div>
+    </div>
+
+    <div class="column lojas">
+      <div class="content">
+        <a href="loja1.html">
+          <img src="assets_img/logoo.png" alt="Lights" style="width:100%">
+        </a>
+        <h4>Havan</h4>
+      </div>
+    </div>
+
+    <div class="column lojas">
+      <div class="content">
+        <a href="loja1.html">
+          <img src="assets_img/logoo.png" alt="Lights" style="width:100%">
+        </a>
+        <h4>Ponto Frío</h4>
+      </div>
+    </div>
+
+    <div class="column lanchonetes">
+      <div class="content">
+        <a href="loja1.html">
+          <img src="assets_img/logoo.png" alt="Lights" style="width:100%">
+        </a>
+        <h4>Rosquinha's Bar</h4>
+      </div>
+    </div>
+
+    <div class="column lanchonetes">
+      <div class="content">
+        <a href="loja1.html">
+          <img src="assets_img/logoo.png" alt="Lights" style="width:100%">
+        </a>
+        <h4>Bar do Moe</h4>
+      </div>
+    </div>
+
+    <div class="column lanchonetes">
+      <div class="content">
+        <a href="loja1.html">
+          <img src="assets_img/logoo.png" alt="Lights" style="width:100%">
+        </a>
+        <h4>Viva Churros</h4>
+      </div>
+    </div>
+
+</div>
+<script>
+  window.onload = function() {
+    filterSelection("all");
+  };
+</script>
+
+</body>
+</html>

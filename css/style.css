@@ -1,0 +1,202 @@
+.topnav {
+  overflow: hidden;
+  background-color: #000000;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+  font-family: monospace;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: rgb(0, 0, 0);
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+
+.topnav a:hover {
+  background-color: #ff8800;
+  color: black;
+}
+
+.active {
+  background-color: #ff8800;
+  color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.mobile-container {
+  max-width: 700px;
+  margin: auto;
+  background-color: #f5f5dc;
+  padding-bottom: 10px;
+}
+
+.rodape{
+  background-color: #ff8800;
+  color: white;
+  height: auto;
+  max-width: 700px;
+  margin: auto;
+  font-size: 10px;
+  font-family: monospace;
+  padding-top: 20px;
+}
+
+.rodape a{
+  text-decoration: none;
+  color: white;
+}
+
+.rodape p{
+  margin-bottom: 5px;
+}
+
+.rodape-div{
+  display: flex;
+  flex-wrap: wrap;
+  width:100%;
+  margin: auto;
+  align-items: stretch;
+  padding: 60px 10px 40px 10px;
+}
+
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+  display: flex;
+  width: calc(100% / 4 - 20px);
+  padding: 10px;
+}
+
+.rodape span{
+  font-size: 20px;
+  color: white;
+}
+
+.rodape-direitos{
+  width: calc(100% - 20px);
+  background-color: black;
+  padding: 10px;
+  margin: 0px;
+  text-align: center;
+  font-family: monospace;
+}
+
+@media (max-width: 768px) {
+  .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+    width: calc(50% - 20px);
+    padding: 10px;
+  }
+  .rodape-div{
+    padding: 60px 0px 40px 0px;
+  }
+}
+
+html {
+  background-color: #000000;
+}
+
+.mobile-container > img {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 85%;
+  border-radius: 20px;
+}
+
+.active > img {
+  height: 50px;
+  box-shadow: 5px 5px black;
+}
+
+.topnav a.icon:hover {
+  background-color: #00000000;
+}
+
+.container {
+position: relative;
+text-align: center;
+color: rgb(0, 0, 0);
+box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 15px;
+margin-bottom: 15px;
+width: 85%;
+border-radius: 20px;
+}
+
+.bottom-right {
+position: absolute;
+bottom: 20px;
+right: 20px;
+border: 2px solid black;
+border-radius: 25px;
+padding-left: 6px;
+padding-right: 6px;
+box-shadow: 3px 3px black;
+background-color: #ff8800;
+width: 90px;
+height: 30px;
+padding-top: 10px;
+font-family: monospace;
+}
+
+.container > img {
+  border-radius: 20px;
+}
+
+.bottom-right > a {
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+}
+
+.fa {
+  font-size: 30px;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  padding-top: 20px;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #000000;
+  color: white;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.fa-google {
+  background: #000000;
+  color: white;
+  margin: 5px;
+  border-radius: 5px;
+} 
+
+.fa-telegram {
+  background: #000000;
+  color: white;
+  margin: 5px;
+  border-radius: 5px;
+}

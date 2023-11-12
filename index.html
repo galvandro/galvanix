@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets_img/logoo.png" type="image/x-icon">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>GALVANIX</title>
+    </head>
+    <body>
+        
+      <div class="mobile-container">
+
+        <div class="topnav">
+        <a href="#home" class="active"><img src="assets_img/logoo.png" alt=""></a>
+        
+        <div id="myLinks">
+            <a href="lojas_menu.html">Lojas</a>
+            <a href="servicos_menu.html">Serviços</a>
+            <a href="highlights_menu.html">Highlights</a>
+        </div>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        </div>
+
+        <div class="container">
+            <img src="uploads_img/lojas.jpg" alt="" style="width:100%;">
+            <div class="bottom-right"><a href="lojas_menu.html">Lojas</a></div>
+        </div>
+
+        <div class="container">
+            <img src="uploads_img/servicos.jpg" alt="" style="width:100%;">
+            <div class="bottom-right"><a href="servicos_menu.html">Serviços</a></div>
+        </div>
+
+        <div class="container">
+            <img src="uploads_img/highlights.jpg" alt="" style="width:100%;">
+            <div class="bottom-right"><a href="highlights_menu.html">Highlights</a></div>
+        </div>
+
+      </div>
+
+        <script>
+            function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+        } 
+        </script>
+
+        <footer class="rodape">
+            <p class="rodape-direitos">Copyright © GALVANIX 2023 – Todos os Direitos Reservados.</p>
+        </footer>
+    </body>
+</html>

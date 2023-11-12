@@ -1,0 +1,75 @@
+input[type=text], textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  box-shadow: 3px 3px;
+  margin-bottom: 20px;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #ffdd00;
+  color: rgb(0, 0, 0);
+  padding: 12px 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-top: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f5f5dc;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+html {
+  background-image: linear-gradient(to right, #ff8800, #ffd000);
+  font-family: monospace;
+}
+
+@media screen and (max-width: 2080px) {
+  .col-25, .col-75, input [type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  box-shadow: 3px 3px;
+}
